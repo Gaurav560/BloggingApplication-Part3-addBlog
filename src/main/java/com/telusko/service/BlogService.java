@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface BlogService {
 
-    public List<Blog> getAllBlogs();
+    List<Blog> getAllBlogs();
 
-    public Blog getBlogById(int id);
+    Blog getBlogById(int id);
 
-    public Blog addBlog(Blog blog);
+    Blog addBlog(Blog blog);
 }
